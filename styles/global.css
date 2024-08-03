@@ -8,18 +8,28 @@
 {
     text-align: center;
 }
-footer
-{
-    background-color: red;
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
 section,header
 {
     margin-top: 1em;
     margin-bottom: 1em;
+    
+}
+.d-block
+{
+    display: block;
+    width: 100%;
+    padding: 1em;
+    border: 1px solid;
+    
+}
+a
+{
+    text-decoration: none;
+    color: black !important;
+    border-radius: 100em;
+    margin-top: 3em;
 }
 img
 {
-    border-radius: 100em;
+    border-radius: 10%;
 }

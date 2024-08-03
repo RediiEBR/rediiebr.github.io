@@ -10,32 +10,22 @@
 </head>
 <body>
     <header class="container">
-        <section class="row">
-            <h1 class="text-center col-6">Jos&eacute; Manuel Mart&iacute;n Cerezo</h1>
-             <img class="col-3" src="./files/prof.jpg" alt="profile picture" width="2rem">
+        <section class="row" >
+            
+            <img class="rounded-pill col-6" src="./files/prof.jpg" alt="profile picture">
+            <div class="col-md-6 col-12">
+                 <h1 class="text-center">Jos&eacute; Manuel Mart&iacute;n Cerezo</h1>
+                 <a class="d-block text-center" target="_blank" href="./files/CV.pdf">Download cv</a>
+            </div>
+           
         </section>
     </header>
     <article>
-        <section class="container">
-            <h2>Formaci&oacute;n</h2>
-            <ul>
-                <li>
-                    Ciclo formativo de grado superior en Desarrollo de aplicaciones web (terminada)
-                </li>
-                <li>
-                    Ingenier&iacute;a inform&aacute;tica(en proceso)
-                </li>
-            </ul>
-        </section>
-        <section class="container">
-            <h3>
-                Repositorios
-            </h3>
-            <aside id="listadoRepositorios"></aside>
-        </section>
+        
     </article>
-    <footer>
-        <small class="text-center d-block">Jos&eacute; Manuel Mart&iacute;n Cerezo</small>
-    </footer>
+   <script>
+        var element=document.getElementsByTagName("button")[0];
+        element.onclick = function(e){e.preventDefault();}
+   </script>
 </body>
 </html>
