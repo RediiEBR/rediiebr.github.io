@@ -4,6 +4,11 @@
     padding: 0;
     font-family: sans-serif;
 }
+html
+{
+    background-color: turquoise;
+    color: white ;
+}
 .text-center
 {
     text-align: center;
@@ -19,17 +24,39 @@ section,header
     display: block;
     width: 100%;
     padding: 1em;
-    border: 1px solid;
+    border: 2px solid;
+    
+}
+.d-block:hover
+{
+    background-color: white;
+    color: black;
+    transition: ease-in 0.5s;
+}
+img
+{
+    display: block;
+    width: 50% !important;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 a
 {
     text-decoration: none;
-    color: black !important;
+    color: white;
     border-radius: 100em;
     margin-top: 3em;
+    margin: auto;
+    width: 60% !important;
+    margin-top: 1em;
 }
 img
 {
     border-radius: 10%;
+}
+h1
+{
+    margin-top: 1em;
 }
