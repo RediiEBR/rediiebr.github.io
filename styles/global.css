@@ -3,10 +3,11 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    
 }
 html
 {
-    background-color: turquoise;
+    background-color: #00ae9d;
     color: white ;
 }
 .text-center
@@ -52,7 +53,6 @@ a
     width: 60% !important;
     margin-top: 1em;
     transition: ease-in 0.5s;
-    
 }
 img
 {
