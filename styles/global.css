@@ -51,6 +51,7 @@ a
     margin: auto;
     width: 60% !important;
     margin-top: 1em;
+    transition: ease-in 0.5s;
 }
 img
 {
